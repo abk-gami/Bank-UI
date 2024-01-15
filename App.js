@@ -4,8 +4,16 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import Header from './src/screens/Header';
 import Transactions from './src/screens/Transactions';
 import Card from './src/screens/Card';
+import { useColorScheme } from 'nativewind';
+import { useFonts } from 'expo-font';
 
 export default function App() {
+
+  const {colorScheme, toggleColorScheme} = useColorScheme();
+
+  const [fontsLoaded, fontError] = useFonts({
+    
+  })
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar style="dark" />
@@ -29,7 +37,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    padding: 6
+    padding: 6,
     // alignItems: 'center',
     // justifyContent: 'center',
   },
