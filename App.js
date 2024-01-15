@@ -6,8 +6,11 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar style="dark" />
-    <View >
-      <Text>Open up App.js to start working on your app!</Text>
+
+    <View>
+      <View style={styles.view}>
+
+      </View>
     </View>
     </SafeAreaView>
   );
@@ -20,4 +23,7 @@ const styles = StyleSheet.create({
     // alignItems: 'center',
     // justifyContent: 'center',
   },
+  view: {
+    marginVertical: 6
+  }
 });
