@@ -22,7 +22,7 @@ export default function App() {
       <Header/>
 
       <Card/>
- 
+  
       <Transactions/>
 
       </View>
