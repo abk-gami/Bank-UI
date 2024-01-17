@@ -1,16 +1,20 @@
 import { StyleSheet, Text, View, Image } from 'react-native'
-import React from 'react'
+import React from 'react';
+import {BellIcon} from 'react-native-heroicons/outline'
 
 const Header = () => {
   return (
     <View style={styles.container}>
-      <Text >My Todos</Text>
+      {/* <Text >My Todos</Text> */}
       <View>
         <Image
         source={require('../../assets/images/avatar.png')}
         style={styles.image}
         // resizeMode='contain'
         />
+      </View>
+      <View>
+        <BellIcon size={30} strokeWidth={2} color={'black'}/>
       </View>
     </View>
   )
@@ -22,6 +26,8 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: 'red',
     flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-around'
   },
   image: {
     width: 45,
