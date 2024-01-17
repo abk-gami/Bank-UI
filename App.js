@@ -5,6 +5,7 @@ import Header from './src/screens/Header';
 import Transactions from './src/screens/Transactions';
 import Card from './src/screens/Card';
 import { useFonts } from 'expo-font';
+import * as SplashScreen from 'expo-splash-screen';
 
 export default function App() {
 
