@@ -4,11 +4,15 @@ import React from 'react'
 const Header = () => {
   return (
     <View>
-      <Text>Header</Text>
+      <Text style={styles.try}>Header</Text>
     </View>
   )
 }
 
 export default Header
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  try: {
+    fontFamily: 'PoppinsBold'
+  }
+})
