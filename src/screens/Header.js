@@ -24,10 +24,10 @@ export default Header
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: 'red',
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'space-around'
+    justifyContent: 'space-between',
+    paddingHorizontal: 25,
   },
   image: {
     width: 45,
