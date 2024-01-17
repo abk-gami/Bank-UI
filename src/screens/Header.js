@@ -6,7 +6,11 @@ const Header = () => {
     <View style={styles.container}>
       <Text >My Todos</Text>
       <View>
-        <Image source={require('../../assets/')}/>
+        <Image
+        source={require('../../assets/images/avatar.png')}
+        style={styles.image}
+        // resizeMode='contain'
+        />
       </View>
     </View>
   )
@@ -18,5 +22,12 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: 'red',
     flexDirection: 'row',
+  },
+  image: {
+    width: 45,
+    height: 45,
+    borderWidth: 1.5,
+    borderRadius: 50,
+    borderColor: 'white'
   }
 })
