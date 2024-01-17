@@ -10,7 +10,7 @@ export default function App() {
 
 
   const [fontsLoaded, fontError] = useFonts({
-    PoppinsSemiBold: require('./src/fonts/Poppins-SemiBold.tff')
+    PoppinsSemiBold: require('./src/fonts/Poppins-SemiBold.ttf')
   })
   return (
     <SafeAreaView style={styles.container}>
