@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View, Image } from 'react-native'
 import React from 'react';
 import {BellIcon} from 'react-native-heroicons/outline'
-
+ 
 const Header = () => {
   return (
     <View style={styles.container}>
