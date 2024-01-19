@@ -5,7 +5,7 @@ import {BellIcon} from 'react-native-heroicons/outline'
 const Header = () => {
   return (
     <View style={styles.container}>
-      {/* <Text >My Todos</Text> */}
+      
       <View>
         <Image
         source={require('../../assets/images/avatar.png')}
@@ -24,6 +24,7 @@ export default Header
 
 const styles = StyleSheet.create({
   container: {
+    backgroundColor: "#0000001b",
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
