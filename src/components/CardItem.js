@@ -5,7 +5,10 @@ const CardItem = () => {
   return (
     
     <TouchableOpacity style={styles.buttons}>
-      <Text>CardItem</Text>
+        <View style={styles.view}>
+
+      <Text>CardItems</Text>
+        </View>
     </TouchableOpacity>
     
   )
@@ -16,5 +19,8 @@ export default CardItem
 const styles = StyleSheet.create({
     buttons:{
         marginRight: 4
+    },
+    view: {
+
     }
 })
