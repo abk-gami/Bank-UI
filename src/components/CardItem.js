@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
         marginRight: 4
     },
     view:{
-        paddingVertical: 16,
+        paddingVertical: 20,
         paddingHorizontal: 10,
         justifyContent: 'space-between',
         width: width * 0.45,
@@ -44,18 +44,18 @@ const styles = StyleSheet.create({
         height: 65,
     },
     cardNumber:{
-        fontFamily: 'PoppinsBold',
+        fontFamily: 'PoppinsSemiBold',
         color: 'white',
         fontSize: 16
     },
     price:{
         fontFamily: 'PoppinsBold',
         color: '#fff',
-        fontSize:25
+        fontSize:28
     },
     cardType: {
         color: 'white',
-        fontFamily: 'PoppinsBold'
+        fontFamily: 'PoppinsSemiBold'
     }
 
 })
