@@ -1,38 +1,4 @@
-// import { StyleSheet, Text, View, TouchableOpacity, Dimensions } from 'react-native'
-// import React from 'react'
-
-// const { width, height } = Dimensions.get('window')
-
-// const CardItem = ({image, price, cardType, cardNumber, backgroundColor}) => {
-//   return (
-    
-//     <TouchableOpacity style={styles.buttons}>
-//         <View style={styles.view}>
-
-//       <Text>CardItems</Text>
-//         </View>
-//     </TouchableOpacity>
-    
-//   )
-// }
-
-// export default CardItem
-
-// const styles = StyleSheet.create({
-//     buttons:{
-//         marginRight: 4
-//     },
-//     view: {
-//         paddingVertical: 8,
-//         paddingHorizontal: 4,
-//         justifyContent: 'space-between',
-//         width: width * 0.45,
-//         height: height * 0.3,
-//         backgroundColor: backgroundColor
-//     }
-// })
-
-import { StyleSheet, Text, View, TouchableOpacity, Dimensions } from 'react-native'
+import { StyleSheet, Text, View, TouchableOpacity, Dimensions, Image } from 'react-native'
 import React from 'react'
 
     const {width, height} = Dimensions.get('window')
@@ -41,8 +7,13 @@ export default function CardItem({image, price, cardType, cardNumber,backgroundC
   return (
     <TouchableOpacity style={styles.buttons}>
     <View style={[styles.view, {backgroundColor: backgroundColor,}] }>
-      <Text >CardItem</Text>
+        <Image 
+        source={image}
+        style={styles.image}
+        resizeMode='contain'
+        />
     </View>
+      <Text >CardItem</Text>
     </TouchableOpacity>
   )
 }
@@ -57,6 +28,11 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         width: width * 0.45,
         height: height * 0.3,
-        // borderRadius:
+        borderRadius: 18
+    },
+    image: {
+        width: 65,
+        height: 65,
     }
+
 })
