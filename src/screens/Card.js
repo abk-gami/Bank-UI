@@ -9,7 +9,9 @@ const Card = () => {
       >Card</Text>
 
       <ScrollView
+      horizontal
       showsHorizontalScrollIndicator={false}
+      style={{margin:5}}
       >
 
       </ScrollView>
