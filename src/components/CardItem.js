@@ -13,7 +13,13 @@ export default function CardItem({image, price, cardType, cardNumber,backgroundC
         resizeMode='contain'
         />
         <View>
-            <Text style={styles.text}>{cardNumber}</Text>
+            <Text style={styles.cardNumber}>{cardNumber}</Text>
+        </View>
+        <View>
+            <Text style={styles.price}>{price}</Text>
+        </View>
+        <View>
+            <Text style={styles.cardType}>{cardType}</Text>
         </View>
     </View>
       {/* <Text >CardItem</Text> */}
@@ -37,10 +43,19 @@ const styles = StyleSheet.create({
         width: 65,
         height: 65,
     },
-    text:{
+    cardNumber:{
         fontFamily: 'PoppinsBold',
         color: 'white',
         fontSize: 16
+    },
+    price:{
+        fontFamily: 'PoppinsBold',
+        color: '#fff',
+        fontSize:25
+    },
+    cardType: {
+        color: 'white',
+        fontFamily: 'PoppinsBold'
     }
 
 })
