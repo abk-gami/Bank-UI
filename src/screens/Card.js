@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { ScrollView, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
 const Card = () => {
@@ -7,6 +7,12 @@ const Card = () => {
       <Text
       style={styles.text}
       >Card</Text>
+
+      <ScrollView
+      showsHorizontalScrollIndicator={false}
+      >
+
+      </ScrollView>
     </View>
   )
 }
@@ -19,6 +25,8 @@ const styles = StyleSheet.create({
     marginBottom: 4,
   },
   text: {
-    fontFamily: 'PoppinsBold'
+    fontFamily: 'PoppinsBold',
+    fontSize: 34,
+    marginBottom: 4,
   }
 })
