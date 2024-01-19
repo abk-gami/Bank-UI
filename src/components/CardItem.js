@@ -12,8 +12,11 @@ export default function CardItem({image, price, cardType, cardNumber,backgroundC
         style={styles.image}
         resizeMode='contain'
         />
+        <View>
+            <Text style={styles.text}>{cardNumber}</Text>
+        </View>
     </View>
-      <Text >CardItem</Text>
+      {/* <Text >CardItem</Text> */}
     </TouchableOpacity>
   )
 }
@@ -23,8 +26,8 @@ const styles = StyleSheet.create({
         marginRight: 4
     },
     view:{
-        paddingVertical: 8,
-        paddingHorizontal: 4,
+        paddingVertical: 16,
+        paddingHorizontal: 10,
         justifyContent: 'space-between',
         width: width * 0.45,
         height: height * 0.3,
@@ -33,6 +36,11 @@ const styles = StyleSheet.create({
     image: {
         width: 65,
         height: 65,
+    },
+    text:{
+        fontFamily: 'PoppinsBold',
+        color: 'white',
+        fontSize: 16
     }
 
 })
