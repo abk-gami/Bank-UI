@@ -1,5 +1,7 @@
-import { StyleSheet, Text, View, TouchableOpacity } from 'react-native'
+import { StyleSheet, Text, View, TouchableOpacity, Dimensions } from 'react-native'
 import React from 'react'
+
+const { width, height } = Dimensions.get('window')
 
 const CardItem = () => {
   return (
@@ -21,6 +23,10 @@ const styles = StyleSheet.create({
         marginRight: 4
     },
     view: {
-
+        paddingVertical: 8,
+        paddingHorizontal: 4,
+        justifyContent: 'space-between',
+        width: width * 0.45,
+        height: height * 0.3
     }
 })
