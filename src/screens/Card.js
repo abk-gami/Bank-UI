@@ -1,5 +1,7 @@
 import { ScrollView, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import { carousalData } from '../utils/index'
+import CardItem from '../components/CardItem'
 
 const Card = () => {
   return (
@@ -14,6 +16,17 @@ const Card = () => {
       style={{margin:5}}
       >
 
+      {carousalData.map((stuff) => (
+        <CardItem
+        key={stuff.id}
+        image={stuff.imgUrl}
+        price={stuff.price}
+        cardType={stuff.cardType}
+        cardNumber={stuff.cardNumber}
+        backgroundColor={stuff.backgroundColor}
+        textColor={stuff.textColor}
+        />
+      ))}
       </ScrollView>
     </View>
   )
