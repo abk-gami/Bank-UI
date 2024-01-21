@@ -14,7 +14,7 @@ export default Transactions
 const styles = StyleSheet.create({
   header: {
     fontSize: 24,
-    fontFamily: 'PoppinsBold'
+    fontFamily: 'PoppinsBold',
   },
   container: {
     padding: 10
