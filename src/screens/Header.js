@@ -14,7 +14,7 @@ const Header = () => {
         />
       </View>
       <View>
-        <BellIcon size={30} strokeWidth={2} color={'black'}/>
+        <BellIcon size={30} strokeWidth={2} color={'#ffffff'}/>
       </View>
     </View>
   )
@@ -24,11 +24,12 @@ export default Header
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#0000001b",
+    // backgroundColor: "#0000001b",
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    paddingHorizontal: 25,
+    paddingHorizontal: 10,
+    marginRight: 10
   },
   image: {
     width: 45,
