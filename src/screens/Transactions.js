@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
   header: {
     fontSize: 34,
     fontFamily: 'PoppinsBold',
-    
+    color: 'white'
   },
   container: {
     padding: 10
