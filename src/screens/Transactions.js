@@ -1,6 +1,7 @@
 import { FlatList, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { transactionData } from '../utils'
+import TransactionCard from '../components/TransactionCard'
 
 const Transactions = () => {
   return (
@@ -16,6 +17,8 @@ const Transactions = () => {
       removeClippedSubviews={false}
       height={400}
       renderItem={({item})=><TransactionCard {...item} />}
+      showsVerticalScrollIndicator={false}
+      ItemSeparatorComponent={() => <View style={{marginBottom: 10}}/>}
       />
     </View>
   )
