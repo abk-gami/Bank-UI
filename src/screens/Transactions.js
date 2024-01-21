@@ -8,7 +8,7 @@ const Transactions = () => {
     </View>
   )
 }
-
+ 
 export default Transactions
 
 const styles = StyleSheet.create({
