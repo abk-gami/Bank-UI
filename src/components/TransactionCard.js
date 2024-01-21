@@ -23,6 +23,16 @@ export default function TransactionCard({
         />
         </View>
 
+        <View >
+            <Text style={styles.first}>{name}</Text>
+            <Text style={styles.second}>{type}</Text>
+        </View>
+    
+        <View>
+            <Text style={styles.third}>{amount}</Text>
+            <Text style={styles.second}>{date}</Text>
+        </View>
+
     </View>
         </TouchableOpacity>
   )
@@ -37,6 +47,19 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         borderRadius: 20,
         alignItems: 'center',
-        paddingHorizontal: 17
-    }
+        paddingHorizontal: 20,
+        justifyContent: 'space-between'
+    },
+    first: {
+        fontFamily:'PoppinsBold',
+        fontSize: 27
+    },
+    second:{
+        fontFamily: 'PoppinsMedium',
+        fontSize: 17
+    },
+    third:{
+        fontFamily: 'PoppinsSemiBold',
+        fontSize: 23
+    },
 })
