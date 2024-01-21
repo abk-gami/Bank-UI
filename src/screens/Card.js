@@ -43,5 +43,6 @@ const styles = StyleSheet.create({
     fontFamily: 'PoppinsBold',
     fontSize: 34,
     marginBottom: 4,
+    color: 'white'
   }
 })
