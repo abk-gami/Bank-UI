@@ -6,10 +6,11 @@ import TransactionCard from '../components/TransactionCard'
 const Transactions = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>Transactions</Text>
+      <Text style={styles.header}>Last Transactions</Text>
 
 
       <FlatList
+      // horizontal
       data={transactionData}
       keyExtractor={(item) => item.id}
       initialNumToRender={20}
