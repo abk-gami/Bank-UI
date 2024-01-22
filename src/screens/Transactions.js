@@ -2,7 +2,7 @@ import { FlatList, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { transactionData } from '../utils'
 import TransactionCard from '../components/TransactionCard'
-   
+    
 const Transactions = () => {
   return (
     <View style={styles.container}>
