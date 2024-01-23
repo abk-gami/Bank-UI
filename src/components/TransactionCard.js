@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View, Dimensions, Image, TouchableOpacity } from 'react-native'
 import React from 'react'
-  
+   
     const {width, height} = Dimensions.get('window')
 export default function TransactionCard({
     name,
