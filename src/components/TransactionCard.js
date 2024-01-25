@@ -22,7 +22,7 @@ export default function TransactionCard({
         resizeMode='contain'
         />
         </View>
- 
+   
         <View >
             <Text style={styles.first}>{name}</Text>
             <Text style={styles.second}>{type}</Text>
