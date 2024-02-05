@@ -21,7 +21,7 @@ export default function TransactionCard({
         style={{width: 65, height: 65, aspectRatio: 1/1}}
         resizeMode='contain' 
         /> 
-        </View>
+        </View> 
    
         <View > 
             <Text style={styles.first}>{name}</Text>
