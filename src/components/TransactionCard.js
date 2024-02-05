@@ -34,7 +34,7 @@ export default function TransactionCard({
         </View>
 
     </View>
-        </TouchableOpacity>
+        </TouchableOpacity> 
   )
 }
 
