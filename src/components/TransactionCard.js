@@ -24,7 +24,7 @@ export default function TransactionCard({
         </View> 
    
         <View > 
-            <Text style={styles.first}>{name}</Text>
+            <Text style={styles.first}>{name}</Text> 
             <Text style={styles.second}>{type}</Text>  
         </View> 
     
