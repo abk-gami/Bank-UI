@@ -20,7 +20,7 @@ export default function TransactionCard({
         // style={{ width: "100%", aspectRatio: 1/1 }}
         style={{width: 65, height: 65, aspectRatio: 1/1}}
         resizeMode='contain'
-        />
+        /> 
         </View>
    
         <View >
