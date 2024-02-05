@@ -31,7 +31,7 @@ export default function TransactionCard({
         <View>
             <Text style={styles.third}>{amount}</Text>
             <Text style={styles.second}>{date}</Text> 
-        </View>
+        </View> 
 
     </View>
         </TouchableOpacity> 
