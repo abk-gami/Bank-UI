@@ -25,12 +25,12 @@ export default function TransactionCard({
    
         <View >
             <Text style={styles.first}>{name}</Text>
-            <Text style={styles.second}>{type}</Text>
+            <Text style={styles.second}>{type}</Text> 
         </View>
     
         <View>
             <Text style={styles.third}>{amount}</Text>
-            <Text style={styles.second}>{date}</Text>
+            <Text style={styles.second}>{date}</Text> 
         </View>
 
     </View>
