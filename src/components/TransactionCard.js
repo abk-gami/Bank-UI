@@ -15,7 +15,7 @@ export default function TransactionCard({
     <View style={styles.container}>  
 
         <View style={{backgroundColor: '#ffffff'}}> 
-        <Image 
+        <Image  
         source={imageSource}
         // style={{ width: "100%", aspectRatio: 1/1 }}
         style={{width: 65, height: 65, aspectRatio: 1/1}}
