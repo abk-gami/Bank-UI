@@ -12,7 +12,7 @@ export default function TransactionCard({
   return (
     <TouchableOpacity>
 
-    <View style={styles.container}> 
+    <View style={styles.container}>  
 
         <View style={{backgroundColor: '#ffffff'}}> 
         <Image
