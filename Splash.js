@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Splash() {
   return (
-    <View>
+    <View style={styles.container}>
       <Text>Splash</Text>
     </View>
   )
