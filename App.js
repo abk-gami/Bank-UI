@@ -20,7 +20,7 @@ export default function App() {
   // const onLayoutRootView = useCallback(async () => {
   //   if (fontsLoaded || fontError) {
   //     await SplashScreen.hideAsync();
-  //   }
+  //   } 
   // }, [fontsLoaded, fontError]); 
 
   // if (!fontsLoaded) {
