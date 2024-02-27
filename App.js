@@ -22,7 +22,7 @@ export default function App() {
   //     await SplashScreen.hideAsync();
   //   } 
   // }, [fontsLoaded, fontError]); 
-
+ 
   // if (!fontsLoaded) {
   //   return null; 
   // }
