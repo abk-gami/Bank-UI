@@ -23,7 +23,7 @@ export default function App() {
   //   } 
   // }, [fontsLoaded, fontError]); 
  
-  // if (!fontsLoaded) {
+  //  b (!fontsLoaded) {
   //   return null; 
   // } 
 
