@@ -18,12 +18,12 @@ export default function App() {
   });
 
   // const onLayoutRootView = useCallback(async () => {
-  //   if (fontsLoaded || fontError) {
+  //   if (fontsLoaded || fontError) { 
   //     await SplashScreen.hideAsync();
   //   } 
   // }, [fontsLoaded, fontError]); 
  
-  //  b (!fontsLoaded) {
+  //   (!fontsLoaded) {
   //   return null; 
   // } 
 
