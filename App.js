@@ -24,7 +24,7 @@ export default function App() {
   // }, [fontsLoaded, fontError]);
 
   // if (!fontsLoaded) {
-  //   return null;
+  //   return null; 
   // }
 
   return (
