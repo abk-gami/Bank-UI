@@ -57,4 +57,4 @@ const styles = StyleSheet.create({
   view: {
     marginVertical: 6
   }
-});
+}); 
