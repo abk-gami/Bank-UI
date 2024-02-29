@@ -25,7 +25,7 @@ export default function App() {
  
   //   (!fontsLoaded) {
   //   return null; 
-  // } 
+  // }  
    
   return (
     <SafeAreaView style={styles.container}>
