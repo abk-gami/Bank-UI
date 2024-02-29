@@ -40,7 +40,7 @@ export default function App() {
    
       <Transactions/>
 
-      </View> 
+      </View>  
     </View>
     </SafeAreaView>
   );
