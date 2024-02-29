@@ -35,7 +35,7 @@ export default function App() {
       <View style={styles.view}>
   
       <Header/>
-
+ 
       <Card/>
   
       <Transactions/>
