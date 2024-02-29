@@ -44,7 +44,7 @@ export default function App() {
     </View>
     </SafeAreaView>
   );
-} 
+}  
        
 const styles = StyleSheet.create({
   container: {
