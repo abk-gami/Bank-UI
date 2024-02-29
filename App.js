@@ -33,7 +33,7 @@ export default function App() {
   
     <View onLayout={onLayoutRootView}>
       <View style={styles.view}>
- 
+  
       <Header/>
 
       <Card/>
