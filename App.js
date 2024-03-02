@@ -16,7 +16,7 @@ export default function App() {
     PoppinsBold: require('./src/fonts/Poppins-Bold.ttf'),   
     PoppinsMedium: require('./src/fonts/Poppins-Medium.ttf')
   });
- 
+  
   // const onLayoutRootView = useCallback(async () => { 
   //   if (fontsLoaded || fontError) { 
   //     await SplashScreen.hideAsync();
