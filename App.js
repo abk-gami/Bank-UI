@@ -13,7 +13,7 @@ export default function App() {
 
   const [fontsLoaded, fontError] = useFonts({
     PoppinsSemiBold: require('./src/fonts/Poppins-SemiBold.ttf'),
-    PoppinsBold: require('./src/fonts/Poppins-Bold.ttf'),
+    PoppinsBold: require('./src/fonts/Poppins-Bold.ttf'), 
     PoppinsMedium: require('./src/fonts/Poppins-Medium.ttf')
   });
  
