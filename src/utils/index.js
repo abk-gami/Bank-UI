@@ -71,7 +71,7 @@ export const transactionData = [
     amount: "$9.99",
     date: "18 December",
     imageSource: require("../../assets/images/spotify.png"),
-  },
+  }, 
   {
     id: 4,
     name: "YouTube",
