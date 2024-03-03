@@ -23,7 +23,7 @@ const Header = () => {
 export default Header
  
 const styles = StyleSheet.create({
-  container: {
+  container: { 
     // backgroundColor: "#0000001b",
     flexDirection: 'row',
     alignItems: 'center', 
