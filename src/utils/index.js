@@ -84,7 +84,7 @@ export const transactionData = [
     id: 5,
     name: "Apple",
     type: "Subscription",
-    amount: "$14.99",
+    amount: "$14.99", 
     date: "22 December",
     imageSource: require("../../assets/images/apple.png"),
   },
