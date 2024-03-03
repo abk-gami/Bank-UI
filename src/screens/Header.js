@@ -7,7 +7,7 @@ const Header = () => {
     <View style={styles.container}>
       
       <View>
-        <Image
+        <Image 
         source={require('../../assets/images/avatar.jpg')} 
         style={styles.image}
         // resizeMode='contain'
