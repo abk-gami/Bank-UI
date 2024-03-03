@@ -75,7 +75,7 @@ export const transactionData = [
   {
     id: 4,
     name: "YouTube",
-    type: "Subscription",
+    type: "Subscription", 
     amount: "$11.99",
     date: "20 December",
     imageSource: require("../../assets/images/youtube.png"),
