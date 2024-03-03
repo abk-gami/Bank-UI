@@ -21,7 +21,7 @@ const Header = () => {
 }
 
 export default Header
-
+ 
 const styles = StyleSheet.create({
   container: {
     // backgroundColor: "#0000001b",
