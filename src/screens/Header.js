@@ -5,7 +5,7 @@ import {BellIcon} from 'react-native-heroicons/outline'
 const Header = () => {
   return (
     <View style={styles.container}>
-      
+       
       <View>
         <Image 
         source={require('../../assets/images/avatar.jpg')} 
