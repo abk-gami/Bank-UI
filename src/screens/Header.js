@@ -17,7 +17,7 @@ const Header = () => {
         <BellIcon size={30} strokeWidth={2} color={'#ffffff'}/>
       </View>
     </View>
-  )
+  ) 
 }
 
 export default Header
