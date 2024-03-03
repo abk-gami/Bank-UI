@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <View style={styles.container}>
        
-      <View>
+      <View> 
         <Image 
         source={require('../../assets/images/avatar.jpg')} 
         style={styles.image}
