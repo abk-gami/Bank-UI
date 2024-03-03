@@ -11,7 +11,7 @@ const Header = () => {
         source={require('../../assets/images/avatar.jpg')} 
         style={styles.image}
         // resizeMode='contain'
-        />
+        /> 
       </View>
       <View>
         <BellIcon size={30} strokeWidth={2} color={'#ffffff'}/>
