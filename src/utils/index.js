@@ -45,7 +45,7 @@ export const carousalData = [
     textColor: "white",
   },
   // Add more items as needed
-];
+]; 
  
 export const transactionData = [
   {
