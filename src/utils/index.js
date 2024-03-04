@@ -34,7 +34,7 @@ export const carousalData = [
     cardNumber: "****5432",
     backgroundColor: "gray",
     textColor: "#ea468e", 
-  },
+  }, 
   {
     id: 5,
     imgUrl: require("../../assets/images/paypal.png"),
