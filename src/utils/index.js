@@ -19,7 +19,7 @@ export const carousalData = [
   },
   {
     id: 3,
-    imgUrl: require("../../assets/images/stripe.png"),
+    imgUrl: require("../../assets/images/stripe.png"), 
     price: 3300,  
     cardType: "Stripe",
     cardNumber: "****9876",
