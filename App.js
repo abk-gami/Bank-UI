@@ -31,7 +31,9 @@ export default function App() {
     <SafeAreaView style={styles.container}>
       <StatusBar style="light" />
   
-    <View onLayout={onLayoutRootView}>
+    <View 
+    // onLayout={onLayoutRootView}
+    >
       <View style={styles.view}>
   
       <Header/>
