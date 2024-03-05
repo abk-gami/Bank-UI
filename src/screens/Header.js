@@ -20,7 +20,7 @@ const Header = () => {
   ) 
 }
 
-export default Header
+export default Header 
  
 const styles = StyleSheet.create({
   container: { 
