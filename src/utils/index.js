@@ -23,9 +23,9 @@ export const carousalData = [
     price: 3300,   
     cardType: "Stripe", 
     cardNumber: "****9876", 
-    backgroundColor: "#55a630", 
+    backgroundColor: "#55a630",  
     textColor: "white",
-  }, 
+  },  
   {
     id: 4,
     imgUrl: require("../../assets/images/discover.png"),
