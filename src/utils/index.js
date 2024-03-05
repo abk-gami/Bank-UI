@@ -33,7 +33,7 @@ export const carousalData = [
     cardType: "Discover",
     cardNumber: "****5432",
     backgroundColor: "gray",
-    textColor: "#ea468e", 
+    textColor: "#ea468e",  
   }, 
   {
     id: 5,
